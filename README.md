@@ -6,7 +6,7 @@
 **1. Clone the application**
 
 ```bash
-https://github.com/devsharma.nitk/TestAuthService.git
+https://github.com/devnitk/TestAuthService.git
 ```
 
 **2. Create Mysql database**
