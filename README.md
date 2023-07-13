@@ -44,7 +44,37 @@ Swagger Home Page:-
 
 ![Screenshot](/TestAuthService/screenshots/MainPage.png)
 
+===================
+
  User Register Success:-
  
-![Screenshot](/TestAuthService/screenshots/UserRegister.png)
+![Screenshot](/TestAuthService/screenshots/signup-UserRegister.png)
+
+ User Register MalformedRequest:-
+ 
+![Screenshot](/TestAuthService/screenshots/signup-malformeduserRegister.png)
+
+
+ User Register Duplicate Email scenario:-
+ 
+![Screenshot](/TestAuthService/screenshots/signup-duplicateemail.png)
+
+User Register with invalid email:-
+ 
+![Screenshot](/TestAuthService/screenshots/signup-invalidemail.png)
+
+==========================
+
+User Login Success:- 
+
+![Screenshot](/TestAuthService/screenshots/loginsuccess.png)
+
+
+User Login With incorrect password:- 
+
+![Screenshot](/TestAuthService/screenshots/incorrectpassword.png)
+
+User Login With invalid user:- 
+
+![Screenshot](/TestAuthService/screenshots/login-usernotfound.png)
 

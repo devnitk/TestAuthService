@@ -105,9 +105,13 @@ public class UserController {
 	                  schema = @Schema(implementation = UserSignInResponse.class))
 	            }),
 	        @ApiResponse(
-	            responseCode = "400",
-	            description = "User signup Request is not valid",
-	            content = @Content)
+	            responseCode = "401",
+	            description = "User password is not valid",
+	            content = @Content),
+	        @ApiResponse(
+		            responseCode = "404",
+		            description = "User not found",
+		            content = @Content)
 	      })
 	public WrapperResponse<UserSignInResponse> userSignIn(@RequestBody @Valid UserSignInRequest request)
 			throws Exception {

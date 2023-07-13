@@ -20,6 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 /***
  * 
  * User Service Implementation
+
  *
  * This service class handles user registration and sign-in operations.
  * 
@@ -27,11 +28,6 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 
-/**
- * User Service Implementation
- *
- * This service class handles user registration and sign-in operations.
- */
 @Slf4j
 @Service
 public class UserServiceImpl implements UserService {
